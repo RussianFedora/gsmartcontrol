@@ -1,0 +1,13 @@
+
+[Desktop Entry]
+Name=GSmartControl
+Comment=Monitor and control SMART data on hard disks
+Comment[ru]=Управление данными SMART на жёстком диске
+GenericName=Hard Disk Health Inspection
+GenericName[ru]=Проверка состояния жёсткого диска
+Icon=gsmartcontrol
+Exec=gsmartcontrol
+Categories=GNOME;GTK;System;
+StartupNotify=true
+Terminal=false
+Type=Application

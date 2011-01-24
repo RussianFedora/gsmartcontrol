@@ -1,0 +1,3 @@
+PROGRAM=/usr/sbin/gsmartcontrol
+SESSION=true
+. config-util
