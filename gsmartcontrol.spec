@@ -1,7 +1,7 @@
 Summary:	Hard Disk Health Inspection Tool
 Name:		gsmartcontrol
 Version:	0.8.5
-Release:	1%{?dist}
+Release:	2%{?dist}
 
 License:	GPLv3
 Url:		http://gsmartcontrol.berlios.de
@@ -98,5 +98,8 @@ gtk-update-icon-cache --quiet %{_datadir}/icons/hicolor &>/dev/null || :
 
 
 %changelog
+* Sat Mar 19 2011 Arkady L. Shane <ashejn@yandex-team.ru> - 0.8.5-2
+- rebuilt
+
 * Mon Jan 24 2010 Arkady L. Shane <ashejn@yandex-team.ru> - 0.8.5-1
 - initial build for Fedora
