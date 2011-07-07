@@ -10,7 +10,6 @@ Source:		http://download.berlios.de/gsmartcontrol/%{name}-%{version}.tar.bz2
 Source1:	gsmartcontrol.pam
 Source2:	gsmartcontrol.consoleapp
 Source3:	gsmartcontrol.desktop
-Patch1:		gsmartcontrol-blacklist-dm.diff
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 BuildRequires:	libstdc++-devel
@@ -31,7 +30,6 @@ SMART data to determine its health, as well as run various tests on it.
 
 %prep
 %setup -q
-%patch1 -p1
 
 
 %build
@@ -100,6 +98,7 @@ gtk-update-icon-cache --quiet %{_datadir}/icons/hicolor &>/dev/null || :
 %changelog
 * Thu Jul  7 2011 Arkady L. Shane <ashejn@yandex-team.ru> - 0.8.6-1.R
 - update to 0.8.6
+- drop patch
 
 * Sat Mar 19 2011 Arkady L. Shane <ashejn@yandex-team.ru> - 0.8.5-2
 - rebuilt
