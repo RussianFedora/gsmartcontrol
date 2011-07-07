@@ -1,7 +1,7 @@
 Summary:	Hard Disk Health Inspection Tool
 Name:		gsmartcontrol
-Version:	0.8.5
-Release:	2%{?dist}
+Version:	0.8.6
+Release:	1%{?dist}.R
 
 License:	GPLv3
 Url:		http://gsmartcontrol.berlios.de
@@ -98,6 +98,9 @@ gtk-update-icon-cache --quiet %{_datadir}/icons/hicolor &>/dev/null || :
 
 
 %changelog
+* Thu Jul  7 2011 Arkady L. Shane <ashejn@yandex-team.ru> - 0.8.6-1.R
+- update to 0.8.6
+
 * Sat Mar 19 2011 Arkady L. Shane <ashejn@yandex-team.ru> - 0.8.5-2
 - rebuilt
 
