@@ -1,6 +1,6 @@
 Name:       gsmartcontrol
 Version:    0.8.6
-Release:    2%{?dist}.R
+Release:    2%{?dist}
 Summary:    Hard Disk Health Inspection Tool
 Summary(ru):Средство контроля здоровья жёсткого диска
 
